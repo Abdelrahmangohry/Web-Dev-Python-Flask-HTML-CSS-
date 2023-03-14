@@ -1,0 +1,35 @@
+img {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  width: 150px
+}
+.skill-box {
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid #CCC;
+    width: 450px;
+  }
+  .skill-box .skill-name {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .skill-box .skill-progress {
+    background-color: #F7F7F7;
+    padding: 10px;
+    position: relative;
+  }
+
+
+
+
+  .skill-box .skill-progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #009688
+  }
